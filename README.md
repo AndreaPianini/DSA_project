@@ -1,8 +1,8 @@
 # 🍰 Pastry Shop Order Management Simulator
 
 ## 📖 Project Overview
-This project has been developed as the final project of an university course of "Algorithms and Data Structure 2023-2024" at Politecnico di Milano.
-This project simulates the operations of an **industrial pastry shop** aiming to improve its **order management system**.  
+This project has been developed as the final project of an university course of "Algorithms and Data Structure" at Politecnico di Milano.\
+The project simulates the operations of an **industrial pastry shop** aiming to improve its **order management system**.  
 The simulation runs in **discrete time**, starting from time `0`. Each executed command advances the time by one unit.
 
 The system manages:
@@ -41,5 +41,8 @@ The simulation ends after the last command is processed.
 - Integer values fit within **32 bits**.  
 - Expired lots are automatically discarded.  
 
+---
+
+Full specifications can be viewed in the 'specs.pdf' file in the 'docs' folder.
 
 
