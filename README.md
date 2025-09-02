@@ -31,3 +31,14 @@ The simulation ends after the last command is processed.
 - Orders are selected in **chronological order** until the next order does not fit.  
 - Selected orders are loaded in **descending weight order**; ties are broken chronologically.  
 - If no orders are ready, the program outputs: 'camioncino vuoto'
+
+---
+
+## 🛠️ Implementation Notes
+- All quantities are positive integers.  
+- Names (ingredients, recipes) can include `{a–z, A–Z, 0–9, _}` up to **255 characters**.  
+- Integer values fit within **32 bits**.  
+- Expired lots are automatically discarded.  
+
+
+
